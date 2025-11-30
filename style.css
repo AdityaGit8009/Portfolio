@@ -1,0 +1,117 @@
+.top-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.profile-img {
+  border-radius: 50%;
+  background-size: contain;
+  animation: borderP 5s infinite ease-in-out;
+  rotate: -7deg;
+}
+
+.hover-color:hover {
+  border-bottom: 2px solid #0ef52d;
+}
+
+.text-green {
+  color: #0ef52d;
+  font-family: cursive;
+}
+
+@keyframes borderP {
+  0% {
+    box-shadow: 0 0 10px #f7b0b0;
+  }
+
+  25% {
+    box-shadow: 0 0 25px #0ef3e8;
+  }
+
+  50% {
+    box-shadow: 0 0 10px #daf50e;
+  }
+
+  75% {
+    box-shadow: 0 0 25px #f00fec;
+  }
+
+  100% {
+    box-shadow: 0 0 10px #d60707;
+  }
+}
+.cv a{
+  text-decoration: none;
+  color: white;
+}
+.heit {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.skill-marquee {
+  width: 100%;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+.skill {
+  margin-right: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/* .icon {
+  height: 60px;
+  width: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+} */
+.social-icons i {
+  font-size: 30px;
+  margin-left: 40px;
+  transition: transform 0.3s;
+}
+
+.social-icons i:hover {
+  transform: scale(1.5);
+}
+
+.about-me-img {
+  transform: rotate(10deg);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.heit2 {
+  height: 50px;
+  width: 50px;
+}
+
+.orange {
+  color: rgb(255, 72, 0);
+}
+
+.blue{
+  color: blue;
+}
+.skyblue {
+  color: skyblue;
+}
+.purple{
+  color: purple;
+}
+.yellow{
+  color: yellow;
+}
+.hover-skill:hover{
+  height: 100%;
+  border: 1px solid #6af50e;
+  box-shadow: 0px 0px 100px 15px #6af50e inset;
+  cursor: pointer;
+  color: white;
+}
